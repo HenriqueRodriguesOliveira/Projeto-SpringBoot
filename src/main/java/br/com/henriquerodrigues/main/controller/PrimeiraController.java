@@ -1,4 +1,4 @@
-package br.com.henriquerodrigues.main;
+package br.com.henriquerodrigues.main.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
