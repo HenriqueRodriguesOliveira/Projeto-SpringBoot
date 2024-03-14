@@ -10,6 +10,7 @@ import java.util.Objects;
 @RestController  //Receber Requisição - processar e retornar para o user
 @RequestMapping("/primeiraController") //Mapear solicitações para métodos de controladores.
 public class PrimeiraController {
+
     @GetMapping("/primeiroMetodo/{id}")
     public String primeiroMetodo(@PathVariable String id) {
         return "O parametró é " + id;
